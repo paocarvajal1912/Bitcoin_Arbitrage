@@ -34,6 +34,8 @@ Below is an example of difference in prices between Bitstamp and Coinbase in a g
 
 We calculated returns per trade, and selected only profitable trades above transaction cost of 1% using a proper boolean filter. The total profit were calculated as the sum of all profitable trades on the day using `cumsum`function. 
 
+!["Figure: Cumulative Profits on Jan 28 2018](images/Cumulative_profit.jpg)
+
 ---
 
 ## Usage

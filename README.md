@@ -6,11 +6,13 @@ The present project analizes those questions based on the big crush of Q1 2018, 
 
 This project quantifies profits on a good day in early, middle and late parts of the period, considering transaction costs. The analisis is replicable for other periods, and it concludes that at the early stage there were potential for large profits. Also, that the opportunity for high profits vanishes fastly, so in order to profit, being able to act fast is key.
 
+This code includes data preparation techniques, such as treatment for missing values, money characters format cleaning such as "$" symbols as well as converting to strings to float.
+
 ---
 
 ## Technologies
 
-The analysis is made on Jupyter Lab, and it uses Pandas for quantitative analysis, pathlib for csv data inputs, and Matplotlib for visualizations.
+The analysis is made on Jupyter Lab, and it uses `Pandas` for quantitative analysis, `pathlib` for csv data inputs, and `Matplotlib` for visualizations.
 
 
 ---
@@ -41,6 +43,9 @@ We calculated returns per trade, and selected only profitable trades above trans
 ## Usage
 
 The code is pre-run. If you want to update dates, you can do so for new visualizations, by changing dates on the series and run the code again. Changing dates will update calculations and visualizations in the code, including summary statistics. However, it will not update the text with the analysis and conclusions.
+
+The file "Analysis Report crypto_arbitrage" is an executive summary of the analysis. 
+The file "Detailed_analisis_crypto_arbitrage" is a full description in detail of all the steps in the anaylisis.
 
 ---
 
